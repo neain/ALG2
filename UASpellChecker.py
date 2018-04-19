@@ -88,7 +88,7 @@ def getWordsOfSize(tSize, dist):
             
     return rList
 def findWords(word, dist):
-    if(dist>13):
+    if(dist>3):
         return -1
     dList = getWordsOfSize(len(word), dist)
     smallest = 100
